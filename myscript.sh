@@ -58,4 +58,7 @@ echo ""
 echo "Unlocking keyring"
 env "$(printf '\n' | gnome-keyring-daemon --unlock)"
 
+echo ""
+echo ""
+
 echo "Fin"
